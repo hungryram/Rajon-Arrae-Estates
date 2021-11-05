@@ -4,6 +4,9 @@ meta_description = ""
 no_index = false
 title = "About"
 title_tag = ""
+[menu.footer]
+name = "About Rajon"
+weight = 3
 [menu.main]
 name = "About Rajon Arrae"
 parent = "Resources"
