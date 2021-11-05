@@ -159,7 +159,7 @@
   {{ $buttonColor := $.Site.Data.appearance.colors }}
   <div class="uk-section">
       <div class="uk-container uk-container-large">
-        <div class="uk-text-center uk-flex-middle" uk-grid>
+        <div class="uk-text-{{ if not .image }}center{{ else }}left{{ end }} uk-flex-middle" uk-grid>
           {{ if .image }}
           <div class="uk-width-1-2@s">
             <div class="uk-card uk-text-center">
@@ -168,12 +168,14 @@
           </div>
           {{ end }}
             <div class="uk-width-expand@s">
-                <div class="uk-card uk-card-body">
+                <div class="uk-card uk-card-body  {{ if not .image }}uk-flex uk-flex-center{{ end }}">
+                  <div class="{{ if not .image }}uk-width-2xlarge{{ end }}">
                     <h2>{{ .heading }}</h2>
                     <p>{{ .body | markdownify }}</p>
                     {{ if and .button_link .button }}
                     <a href="{{ .button_link }}" class="btn-primary uk-button uk-button-primary" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>{{ .button }}</a>
                     {{ end }}
+                  </div>
                 </div>
             </div>
         </div>
@@ -182,7 +184,7 @@
   {{ end }}
 
   {{ if eq "featured-boxes" .template }}
-  <div class="uk-section">
+  <div class="uk-section uk-section-large">
     <div class="uk-container uk-container-large">
       {{ if .heading }}
       <h2 class="uk-text-center">{{ .heading }}</h2>
@@ -190,13 +192,13 @@
       {{ if .body }}
       <p class="uk-text-center">{{ .body | markdownify }}</p>
       {{ end }}
-      <div class="uk-grid-column-small uk-child-width-1-3@s uk-text-center" uk-grid uk-height-match="target: .uk-card">
+      <div class="uk-grid-column-medium uk-child-width-1-3@s uk-text-center" uk-grid uk-height-match="target: .uk-card">
         {{ range .featured }}
         <div>
           <a href="{{ .link }}">
             <div class="uk-inline uk-cover-container" style="border-radius:4px;">
               <img src="{{ .image }}" alt="" uk-cover>
-              <canvas height="400" width="800"></canvas>
+              <canvas height="600" width="800"></canvas>
               <div class="feature-box-overlay uk-position-cover"></div>
               <div class="uk-overlay uk-position-center uk-light">
                   <h3>{{ .heading }}</h3>
@@ -214,7 +216,7 @@
   {{ $buttonColor := $.Site.Data.appearance.colors }}
   {{ $linkColor := $.Site.Data.appearance.colors.links }}
 
-  <div style="background: linear-gradient(rgba(18,27,34,0.4),rgba(18,27,34,0.4)),url(https://res.cloudinary.com/hungryram19/image/upload/v1605403006/templates/realestate2/clean-living-room_b3bubn.jpg) no-repeat center;padding-top:100px;padding-bottom:100px;background-size:cover" uk-parallax="bgy: -200">
+  <div style="background: linear-gradient(rgba(18,27,34,0.5),rgba(18,27,34,0.5)),url({{ .background_image }}) no-repeat center;padding-top:100px;padding-bottom:100px;background-size:cover" uk-parallax="bgy: -200">
     <div class="uk-container uk-container-large">
         <div class="uk-flex uk-flex-middle" uk-grid>
             <div class="uk-width-1-2@s">
