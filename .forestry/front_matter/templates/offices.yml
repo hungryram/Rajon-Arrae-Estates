@@ -124,6 +124,31 @@ fields:
       maxSize: 5
     label: Photo
   label: Photo
+- name: social_media
+  type: field_group
+  config: {}
+  fields:
+  - name: instagram
+    type: text
+    config:
+      required: false
+    label: Instagram
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  - name: facebook
+    type: text
+    config:
+      required: false
+    label: Facebook
+  - name: tiktok
+    type: text
+    config:
+      required: false
+    label: TikTok
+  label: Social Media
 - name: search_engine_optimization
   type: field_group
   config: {}
