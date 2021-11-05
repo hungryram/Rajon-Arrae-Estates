@@ -22,6 +22,11 @@ keywords = []
 meta_description = ""
 no_index = false
 title_tag = ""
+[social_media]
+facebook = "https://www.facebook.com/OakBrookRealty/"
+instagram = "https://www.instagram.com/OakBrookRealty/"
+tiktok = ""
+twitter = ""
 
 +++
 Premier Luxury Real Estate & Lifestyle Group. Building strong investments in the Los Angeles Real Estate
