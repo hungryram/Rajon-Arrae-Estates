@@ -41,8 +41,8 @@ home_sections:
   background_color: "#424242"
   enable_white_text: true
 - template: featured-boxes
-  heading: The Featured Box
-  body: Add in Featured Boxes and link them wherever you need to
+  heading: 
+  body: 
   featured:
   - heading: View Active Listings
     image: https://res.cloudinary.com/hungryram19/image/upload/v1605402110/templates/realestate2/40904885-28JPG_kqkuit.jpg
