@@ -5,6 +5,7 @@ no_index = false
 title = "About"
 title_tag = ""
 [menu.main]
+name = "About Rajon Arrae"
 parent = "Resources"
 weight = 3
 
