@@ -6,31 +6,29 @@ footer:
   footer_background_color: "#232733"
   background_image: https://res.cloudinary.com/hungryram19/image/upload/v1605403006/templates/realestate2/clean-living-room_b3bubn.jpg
   logo: ''
-  footer_bio: Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eveniet!
-    Officia repellendus aliquam necessitatibus iure, porro voluptas magnam laboriosam
-    nesciunt
+  footer_bio: A California Licensed Realtor, Rajon stands out for her exceptional knowledge of the local real estate market
   enable_black_text: false
   disclaimer: |-
     The data and information contained within this website are for informational purposes. We try our best to keep all information up-to-date but encourage visitors to do their own research to determine the accuracy of material available on this website.
     While we strive to keep information accurate, we do not warrant the accuracy or completeness of the information, text, graphics, links or other items contained within these materials. Plead visit our full disclaimer for more information.
   equal_housing_logo: true
   mls_logo: true
-  realtor_logo: true
+  realtor_logo: false
   important_documents: []
 branding:
   site_title: Real Estate
   logo: https://res.cloudinary.com/hungryram19/image/upload/v1636072674/rajon-arrae/rajon-arrae-estates/rajon-arrae-white-logo.png
-  favicon: https://res.cloudinary.com/hungryram19/image/upload/v1630445963/templates/realestate2/favicon_zlmzct.png
+  favicon: https://res.cloudinary.com/hungryram19/image/upload/v1636090196/rajon-arrae/rajon-arrae-estates/rajon-arrae-favicon.png
   dark_logo: https://res.cloudinary.com/hungryram19/image/upload/v1636072713/rajon-arrae/rajon-arrae-estates/rajon-arrae.png
   logo_width: 200
 header:
-  top_header_color: "#070811"
+  top_header_color: "#0f0f0f"
   header_background_color: "#ffffff"
   enable_white_text: true
   enable_white_text_top: true
   transparent_background: true
 pages:
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1628905290/templates/realestate2/kichen_weesqh.jpg
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1636089719/rajon-arrae/rajon-arrae-estates/los-angeles-streets.jpg
 sidebar:
   sidebar:
   - template: side-blog-category
@@ -41,7 +39,7 @@ sidebar:
     heading: More Listings
   single_property_sidebar: true
 colors:
-  button_background_color: "#3fb9be"
+  button_background_color: "#0f0f0f"
   button_text_color: "#FFFFFF"
   links: "#3fb9be"
   accent: "#3fb9be"

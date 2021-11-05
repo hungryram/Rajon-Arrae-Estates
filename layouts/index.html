@@ -159,13 +159,15 @@
   {{ $buttonColor := $.Site.Data.appearance.colors }}
   <div class="uk-section">
       <div class="uk-container uk-container-large">
-        <div class="uk-text-left uk-flex-middle" uk-grid>
-            <div class="uk-width-1-2@s">
-                <div class="uk-card uk-text-center">
-                    <img src="{{ .image }}" alt="{{ .image_alt_tag }}" width="{{ .image_width }}">
-                </div>
+        <div class="uk-text-center uk-flex-middle" uk-grid>
+          {{ if .image }}
+          <div class="uk-width-1-2@s">
+            <div class="uk-card uk-text-center">
+                <img src="{{ .image }}" alt="{{ .image_alt_tag }}" width="{{ .image_width }}">
             </div>
-            <div class="uk-width-1-2@s">
+          </div>
+          {{ end }}
+            <div class="uk-width-expand@s">
                 <div class="uk-card uk-card-body">
                     <h2>{{ .heading }}</h2>
                     <p>{{ .body | markdownify }}</p>
