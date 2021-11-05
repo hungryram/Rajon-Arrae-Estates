@@ -22,3 +22,4 @@ no_index = false
 title_tag = ""
 
 +++
+Premier Luxury Real Estate & Lifestyle Group. Building strong investments in the Los Angeles Real Estate
