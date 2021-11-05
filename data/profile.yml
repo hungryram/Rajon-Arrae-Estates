@@ -1,27 +1,31 @@
 ---
 company_name: Rajon Arrae Estates
 social_media:
-  instagram: 
-  twitter: 
-  facebook: 
+  instagram: ''
+  twitter: ''
+  facebook: ''
   pinterest: ''
   yelp: ''
   linkedin: ''
   tiktok: ''
+  youtube: ''
 contact_information:
-  phone: 
+  phone: ''
   name: Rajon Arrae McCoy
-  cell: '(310) 704-7141'
-  address: 
+  cell: "(310) 704-7141"
+  address: ''
   email: rajon@rajonarraeestates.com
-  license: 
-  city: 
-  state: 
-  zip_code: "92882"
+  license: ''
+  city: ''
+  state: ''
+  zip_code: ''
+  google_page_link: ''
 search_engine_optimization:
   title_tag: Rajon Arrae Estates
-  meta_description: 
+  meta_description: ''
   twitter_card:
     twitter_username: ''
   facebook:
     app_id: ''
+  no_index: false
+  keywords: []
