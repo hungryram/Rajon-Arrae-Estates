@@ -1,5 +1,5 @@
 +++
-title = "Oak Brook Realty "
+title = "Oak Brook Realty Brokerage"
 url = ""
 [contact]
 address = " 18075 Ventura blvd Ste.221"
@@ -30,4 +30,4 @@ tiktok = ""
 twitter = ""
 
 +++
-Premier Luxury Real Estate & Lifestyle Group. Building strong investments in the Los Angeles Real Estate
+Premier Luxury Real Estate & Lifestyle Group. Building strong investments in the Los Angeles Real Estate.With over $500 million in cumulative sale, Rajon Arrae Estates is excited to be apart of Oak Brooks Realty's team. Together they will handle home buyers & sellers with excellent care & knowledge whether you are a first timer or a seasoned property hunter.
