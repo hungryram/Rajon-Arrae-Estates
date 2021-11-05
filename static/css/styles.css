@@ -86,7 +86,7 @@ button.uk-button.uk-button-primary {
 
 .feature-box-overlay {
     transition: .3s;
-    background: rgba(0 0 0 / 20%);
+    background: rgba(0 0 0 / 10%);
 }
 
 .feature-box-overlay:hover {
@@ -422,4 +422,16 @@ footer.footer a:hover {
   #scroll-top:hover {
     background-color: rgb(34, 34, 34);
     transition: .3s ease;
+}
+
+/* FEATURED BOXES */
+
+div.featured-boxes h3 {
+    background: white;
+    color: #000;
+    position: relative;
+    padding: 20px 10px;
+    left: 0;
+    width: 70%;
+    font-size: 1.2rem;
 }

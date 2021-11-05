@@ -21,21 +21,21 @@ home_sections:
   body: Rajon McCoy brings knowledge and an unshakable sense of professionalism and enthusiasm to the Real Estate Industry. Rajon is passionate about helping her clients achieve their goals! Whether she's looking for a killer investment or a clients’ dream home, Rajon treats each transaction with enthusiasm and devotedness! Rajon studied business administration and finance at Long Beach State. In her free time, she enjoys looking at Luxury Properties! 
   button: Read more
   button_link: "/our-team"
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1636072713/rajon-arrae/rajon-arrae-estates/rajon-arrae.png
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1636096944/rajon-arrae/rajon-arrae-estates/living-room.jpg
   image_alt_tag: 
-  image_width: 400
+  image_width: 700
 - template: featured-boxes
-  heading: The Featured Box
-  body: Add in Featured Boxes and link them wherever you need to
+  heading: 
+  body: 
   featured:
   - heading: View Active Listings
-    image: https://res.cloudinary.com/hungryram19/image/upload/v1636096293/rajon-arrae/rajon-arrae-estates/featured1.jpg
+    image: https://res.cloudinary.com/hungryram19/image/upload/v1636131975/rajon-arrae/rajon-arrae-estates/luxury-room.jpg
     link: "/status/active"
   - heading: Featured Listings
-    image: https://res.cloudinary.com/hungryram19/image/upload/v1636096395/rajon-arrae/rajon-arrae-estates/featured3.jpg
+    image: https://res.cloudinary.com/hungryram19/image/upload/v1636132105/rajon-arrae/rajon-arrae-estates/fine-kitchen.jpg
     link: "/featured/featured"
   - heading: Our Team
-    image: https://res.cloudinary.com/hungryram19/image/upload/v1636096395/rajon-arrae/rajon-arrae-estates/featured2.jpg
+    image: https://res.cloudinary.com/hungryram19/image/upload/v1636096651/rajon-arrae/rajon-arrae-estates/luxury-living-room.jpg
     link: "/our-team"
 - template: text-and-contact-form
   heading: We help you buy or sell your property quickly
