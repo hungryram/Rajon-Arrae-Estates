@@ -6,7 +6,7 @@ address = " 18075 Ventura blvd Ste.221"
 city = "Encino"
 email = "info@oakbrookrealty.net"
 fax_number = ""
-office_phone = "(818) 212-9499"
+phone = "(818) 212-9499"
 state = "California"
 zip_code = 91316
 [menu.main]
