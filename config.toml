@@ -22,10 +22,10 @@ url = "/"
 weight = 1
 [[menu.main]]
 name = "Buyers"
-weight = 2
+weight = 3
 [[menu.main]]
 name = "Sellers"
-weight = 3
+weight = 4
 [[menu.main]]
 name = "Resources"
 weight = 5
