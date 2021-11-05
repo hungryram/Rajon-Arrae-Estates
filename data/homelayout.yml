@@ -41,18 +41,18 @@ home_sections:
   background_color: "#424242"
   enable_white_text: true
 - template: featured-boxes
-  heading: 
-  body: 
+  heading: ''
+  body: ''
   featured:
-  - heading: View Active Listings
+  - heading: Search Listings
     image: https://res.cloudinary.com/hungryram19/image/upload/v1605402110/templates/realestate2/40904885-28JPG_kqkuit.jpg
-    link: "/status/active"
-  - heading: Featured Listings
+    link: "/listings"
+  - heading: Home Value Request
     image: https://res.cloudinary.com/hungryram19/image/upload/v1605402939/templates/realestate2/livingroom_az8tp4.jpg
-    link: "/featured/featured"
-  - heading: Our Team
+    link: "/home-value-request"
+  - heading: Get in Touch
     image: https://res.cloudinary.com/hungryram19/image/upload/v1605402038/templates/realestate2/40904885-26JPG_qipfli.jpg
-    link: "/our-team"
+    link: "/contact"
 - template: home-blog
   heading: The blog
   body: Keep up with the latest blog posts
