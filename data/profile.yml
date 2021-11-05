@@ -1,7 +1,7 @@
 ---
 company_name: Rajon Arrae Estates
 social_media:
-  instagram: 'https://www.instagram.com/rajonarraee/'
+  instagram: https://www.instagram.com/rajonarraee/
   twitter: ''
   facebook: ''
   pinterest: ''
@@ -15,7 +15,7 @@ contact_information:
   cell: "(310) 704-7141"
   address: ''
   email: rajon@rajonarraeestates.com
-  license: ''
+  license: 'CA Dre #02145785'
   city: ''
   state: ''
   zip_code: ''
