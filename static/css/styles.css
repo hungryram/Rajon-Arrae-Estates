@@ -136,6 +136,14 @@ div.uk-navbar-dropdown {
 
 /* HERO */
 
+.black-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(17,17,17,0.2);
+}
+
+
 @media screen and (min-width:768px) {
     div.mobile-quicksearch {
         display: none;
@@ -143,6 +151,10 @@ div.uk-navbar-dropdown {
 }
 
 /* WHITE/BLACK LOGO */
+
+.uk-visible\@s.uk-sticky.undefined.uk-sticky-below.uk-sticky-fixed .white-logo {
+    display: none;
+}
 
 .uk-navbar-sticky .dark-logo {
     display: block;
@@ -152,9 +164,13 @@ div.uk-navbar-dropdown {
     display: none;
 }
 
-div.full-nav-wrapper:hover .dark-logo {
+/* div.full-nav-wrapper:hover .dark-logo {
     display: block;
 }
+
+div.full-nav-wrapper:hover .white-logo {
+    display: none;
+} */
 
 
 
