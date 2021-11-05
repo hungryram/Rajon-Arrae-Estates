@@ -41,8 +41,8 @@ sidebar:
 colors:
   button_background_color: "#0f0f0f"
   button_text_color: "#FFFFFF"
-  links: "#3fb9be"
-  accent: "#3fb9be"
+  links: "#000"
+  accent: "#000"
 search_field:
   disable_search: false
   search_by_state: false
