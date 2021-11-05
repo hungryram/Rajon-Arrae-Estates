@@ -7,7 +7,7 @@ title_tag = ""
 [menu.main]
 name = "About Rajon Arrae"
 parent = "Resources"
-weight = 5
+weight = 4
 
 +++
 Growing up in Los Angeles, Rajon remembers, albeit nostalgically, the drives she took with her father around Yorba Linda and Calabasas looking at houses – tours that sparked in her young heart a deep love for real estate. Now a California Licensed Realtor, Rajon stands out for her exceptional knowledge of the local real estate market.
