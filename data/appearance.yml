@@ -6,7 +6,8 @@ footer:
   footer_background_color: "#232733"
   background_image: https://res.cloudinary.com/hungryram19/image/upload/v1636096944/rajon-arrae/rajon-arrae-estates/living-room.jpg
   logo: ''
-  footer_bio: A California Licensed Realtor, Rajon stands out for her exceptional knowledge of the local real estate market
+  footer_bio: A California Licensed Realtor, Rajon stands out for her exceptional
+    knowledge of the local real estate market
   enable_black_text: false
   disclaimer: |-
     The data and information contained within this website are for informational purposes. We try our best to keep all information up-to-date but encourage visitors to do their own research to determine the accuracy of material available on this website.
@@ -35,8 +36,6 @@ sidebar:
     blog_categories: ''
   - template: latest-posts
     latest_posts: ''
-  - template: sidebar-listings
-    heading: More Listings
   single_property_sidebar: true
 colors:
   button_background_color: "#0f0f0f"
