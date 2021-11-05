@@ -1,5 +1,7 @@
 +++
+keywords = []
 meta_description = ""
+no_index = false
 title = "About"
 title_tag = ""
 [menu.main]
@@ -7,6 +9,10 @@ parent = "Resources"
 weight = 3
 
 +++
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+Growing up in Los Angeles, Rajon remembers, albeit nostalgically, the drives she took with her father around Yorba Linda and Calabasas looking at houses – tours that sparked in her young heart a deep love for real estate. Now a California Licensed Realtor, Rajon stands out for her exceptional knowledge of the local real estate market.
 
-Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+Rajon McCoy brings knowledge and an unshakable sense of professionalism and enthusiasm to the Real Estate Industry. Rajon is passionate about helping her clients achieve their goals! Whether she's looking for a killer investment or a clients’ dream home, Rajon treats each transaction with enthusiasm and devotedness! Rajon studied business administration and finance at Long Beach State. In her free time, she enjoys looking at Luxury Properties!
+
+Rajon understands real estate beyond words. Armed with an incredibly analytical mind and top-level problem-solving skills, Rajon is a precious find to every buyer and seller who seeks to work with an efficient and resourceful real estate professional. Rajon has a keen focus on utilizing her extensive knowledge in real estate to educate her clients. This way, she empowers them to make wise and well-informed choices when making one of the most significant financial decisions and gives them the confidence to handle similar transactions in the future.
+
+Contact her today for excellent service delivery and a memorable experience as you reach your goals.
