@@ -48,7 +48,7 @@ home_sections:
     link: "/listings"
   - heading: Home Value Request
     image: https://res.cloudinary.com/hungryram19/image/upload/v1636132105/rajon-arrae/rajon-arrae-estates/fine-kitchen.jpg
-    link: "/home-value-request"
+    link: "/home-valuation/"
   - heading: Get in Touch
     image: https://res.cloudinary.com/hungryram19/image/upload/v1636096651/rajon-arrae/rajon-arrae-estates/luxury-living-room.jpg
     link: "/contact"
