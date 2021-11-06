@@ -18,50 +18,52 @@
                     {{ if .Params.details.category }}<span>{{ .Params.details.category }}</span>{{ end }} 
                     {{ if .Params.details.title }}<span>{{ .Params.details.title }}</span>{{ end }} {{ if .Params.details.office }}{{ with .Site.GetPage .Params.details.office }} at <a href="{{ .Permalink }}" class="uk-text-bold">{{ .Params.title }}</a>{{end}}</span>{{ end }}
                 </div>
-                <table class="uk-table uk-table-small uk-table-divider uk-margin-medium-top">
-                    <tbody>
-                        {{ if .Params.contact.office_phone }}
-                        <tr>
-                            <td>Office Phone</td>
-                            <td class="uk-text-right"><a href="tel:{{ .Params.contact.office_phone }}">{{ .Params.contact.office_phone }}</a></td>
-                        </tr>
-                        {{ end }}
+                <div>
+                    <table class="uk-table uk-table-small uk-table-divider uk-margin-medium-top uk-table-responsive">
                         <tbody>
-                        {{ if .Params.contact.fax_number }}
-                        <tr>
-                            <td>Fax</td>
-                            <td class="uk-text-right"><a href="tel:{{ .Params.contact.fax_number }}">{{ .Params.contact.fax_number }}</a></td>
-                        </tr>
-                        {{ end }}
-                        {{ if .Params.contact.phone }}
-                        <tr>
-                            <td>Phone</td>
-                            <td class="uk-text-right"><a href="tel:{{ .Params.contact.phone }}">{{ .Params.contact.phone }}</a></td>
-                        </tr>
-                        {{ end }}
+                            {{ if .Params.contact.office_phone }}
+                            <tr>
+                                <td>Office Phone</td>
+                                <td class="uk-text-right@s"><a href="tel:{{ .Params.contact.office_phone }}">{{ .Params.contact.office_phone }}</a></td>
+                            </tr>
+                            {{ end }}
+                            <tbody>
+                            {{ if .Params.contact.fax_number }}
+                            <tr>
+                                <td>Fax</td>
+                                <td class="uk-text-right@s"><a href="tel:{{ .Params.contact.fax_number }}">{{ .Params.contact.fax_number }}</a></td>
+                            </tr>
+                            {{ end }}
+                            {{ if .Params.contact.phone }}
+                            <tr>
+                                <td>Phone</td>
+                                <td class="uk-text-right@s"><a href="tel:{{ .Params.contact.phone }}">{{ .Params.contact.phone }}</a></td>
+                            </tr>
+                            {{ end }}
+        
+                            {{ if .Params.contact.email }}
+                            <tr>
+                                <td>Email</td>
+                                <td class="uk-text-right@s"><a href="tel:{{ .Params.contact.email }}">{{ .Params.contact.email }}</a></td>
+                            </tr>
+                            {{ end }}
+                            {{ if .Params.contact.website }}
+                            <tr>
+                                <td>Website</td>
+                                <td class="uk-text-right@s"><a href="{{ .Params.contact.website }}" target="_blank">{{ .Params.contact.website }}</a></td>
+                            </tr>
+                            {{ end }}
+                            <tr>
+                                <td>
     
-                        {{ if .Params.contact.email }}
-                        <tr>
-                            <td>Email</td>
-                            <td class="uk-text-right"><a href="tel:{{ .Params.contact.email }}">{{ .Params.contact.email }}</a></td>
-                        </tr>
-                        {{ end }}
-                        {{ if .Params.contact.website }}
-                        <tr>
-                            <td>Website</td>
-                            <td class="uk-text-right"><a href="{{ .Params.contact.website }}" target="_blank">{{ .Params.contact.website }}</a></td>
-                        </tr>
-                        {{ end }}
-                        <tr>
-                            <td>
-
-                            </td>
-                            <td class="uk-text-right">
-                                
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                                </td>
+                                <td class="uk-text-right">
+                                    
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
