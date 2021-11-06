@@ -153,7 +153,8 @@ div.uk-navbar-dropdown {
 
 /* WHITE/BLACK LOGO */
 
-.uk-visible\@s.uk-sticky.undefined.uk-sticky-below.uk-sticky-fixed .white-logo {
+.uk-visible\@s.uk-sticky.undefined.uk-sticky-below.uk-sticky-fixed .white-logo,
+div.uk-sticky.uk-sticky-below.uk-sticky-fixed.undefined .white-logo {
     display: none;
 }
 

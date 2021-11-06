@@ -17,11 +17,11 @@ footer:
   realtor_logo: false
   important_documents: []
 branding:
-  site_title: Real Estate
+  site_title: Rajon Arrae Estates
   logo: https://res.cloudinary.com/hungryram19/image/upload/v1636072674/rajon-arrae/rajon-arrae-estates/rajon-arrae-white-logo.png
   favicon: https://res.cloudinary.com/hungryram19/image/upload/v1636090196/rajon-arrae/rajon-arrae-estates/rajon-arrae-favicon.png
   dark_logo: https://res.cloudinary.com/hungryram19/image/upload/v1636072713/rajon-arrae/rajon-arrae-estates/rajon-arrae.png
-  logo_width: 200
+  logo_width: 180
 header:
   top_header_color: "#0f0f0f"
   header_background_color: "#ffffff"

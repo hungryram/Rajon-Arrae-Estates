@@ -9,7 +9,6 @@ name = "About Rajon"
 weight = 3
 [menu.main]
 name = "About Rajon Arrae"
-parent = "Resources"
 weight = 2
 
 +++
