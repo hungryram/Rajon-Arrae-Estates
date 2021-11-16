@@ -22,8 +22,8 @@ home_sections:
     enthusiasm to the Real Estate Industry. Rajon is passionate about helping her
     clients achieve their goals! Whether she's looking for a killer investment or
     a clients’ dream home, Rajon treats each transaction with enthusiasm and devotedness!
-    Rajon studied business administration and finance at Long Beach State. In her
-    free time, she enjoys looking at Luxury Properties!
+    Rajon studied business administration and finance in Long Beach. In her free time,
+    she enjoys looking at Luxury Properties!
   button: Read more
   button_link: "/about"
   image: https://res.cloudinary.com/hungryram19/image/upload/v1636096944/rajon-arrae/rajon-arrae-estates/living-room.jpg
@@ -36,7 +36,8 @@ home_sections:
   background_image: https://res.cloudinary.com/hungryram19/image/upload/v1636097095/rajon-arrae/rajon-arrae-estates/luxury-bedroom.jpg
   form:
     heading: Send a message
-    body: Get in touch with Rajon and become more knowledgeable in the real estate market.
+    body: Get in touch with Rajon and become more knowledgeable in the real estate
+      market.
   background_color: "#424242"
   enable_white_text: true
 - template: featured-boxes
