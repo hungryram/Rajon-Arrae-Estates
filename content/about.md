@@ -1,5 +1,6 @@
 +++
 featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1637941912/rajon-arrae/rajon-arrae-estates/rajon-arrae_gcyo0e.jpg"
+image_alt_tag = "Rajon Arrae"
 keywords = []
 meta_description = ""
 no_index = false
