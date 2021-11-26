@@ -17,5 +17,10 @@ fields:
   config: {}
   template: seo
   label: SEO
+- name: image_alt_tag
+  type: text
+  config:
+    required: false
+  label: Image Alt Tag
 pages:
 - content/about.md
