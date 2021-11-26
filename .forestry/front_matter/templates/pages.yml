@@ -12,15 +12,20 @@ fields:
   config:
     maxSize: 64
   label: Featured Image
-- name: seo
-  type: include
-  config: {}
-  template: seo
-  label: SEO
 - name: image_alt_tag
   type: text
   config:
     required: false
   label: Image Alt Tag
+- name: search_engine_optimization
+  type: field_group
+  config: {}
+  fields:
+  - name: seo
+    type: include
+    config: {}
+    template: seo
+    label: SEO
+  label: Search Engine Optimization
 pages:
 - content/about.md
