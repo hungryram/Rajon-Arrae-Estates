@@ -28,7 +28,7 @@ home_sections:
   button_link: "/about"
   image: https://res.cloudinary.com/hungryram19/image/upload/v1637942709/rajon-arrae/rajon-arrae-estates/rajon-arrae-in-kitchen_kdvcoh.jpg
   image_alt_tag: Rajon Arrae
-  image_width: 700
+  image_width: 500
 - template: text-and-contact-form
   heading: Helping you buy or sell your property quickly
   body: Engage with Rajon Arrae Estates to sell, buy or invest in real estate. Get
