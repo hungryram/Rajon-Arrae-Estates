@@ -7,9 +7,11 @@
             <div class="uk-width-{{ $size.column_size }}">
                 <div class="content md__content">
                     <div uk-grid>
+                        {{ if .Params.featured_image }}
                         <div class="uk-width-1-3@m">
                             <img src="{{ .Params.featured_image }}" alt="{{ .Params.image_alt_tag }}">
                         </div>
+                        {{ end }}
                         <div class="uk-width-expand@m">
                             {{ .Content }}
                         </div>
