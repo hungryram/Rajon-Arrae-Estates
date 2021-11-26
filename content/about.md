@@ -19,6 +19,7 @@ no_index = false
 title_tag = ""
 
 +++
+## About Rajon
 Growing up in Los Angeles, Rajon remembers, albeit nostalgically, the drives she took with her father around Yorba Linda and Calabasas looking at houses – tours that sparked in her young heart a deep love for real estate. Now a California Licensed Realtor, Rajon stands out for her exceptional knowledge of the local real estate market.
 
 Rajon McCoy brings knowledge and an unshakable sense of professionalism and enthusiasm to the Real Estate Industry. Rajon is passionate about helping her clients achieve their goals! Whether she's looking for a killer investment or a clients’ dream home, Rajon treats each transaction with enthusiasm and devotedness! Rajon studied business administration and finance in Long Beach. In her free time, she enjoys looking at Luxury Properties!

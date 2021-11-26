@@ -5,8 +5,15 @@
     <div class="uk-container uk-container-large">
         <div class="uk-grid-small" uk-grid>
             <div class="uk-width-{{ $size.column_size }}">
-                <div class="content uk-margin-medium-top md__content">
-                    {{ .Content }}
+                <div class="content md__content">
+                    <div uk-grid>
+                        <div class="uk-width-1-3@m">
+                            <img src="{{ .Params.featured_image }}" alt="{{ .Params.image_alt_tag }}">
+                        </div>
+                        <div class="uk-width-expand@m">
+                            {{ .Content }}
+                        </div>
+                    </div>
                 </div>
             </div>
             
