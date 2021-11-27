@@ -7,6 +7,8 @@ slideshow:
   image: https://res.cloudinary.com/hungryram19/image/upload/v1630458883/templates/realestate2/shutterstock_12168997453_dgp9fa.jpg
   body: Optionally integrate with IDX or use built in tools
   enable_white_text: false
+  video: ''
+  video_link: ''
 - heading: Super Versatile for Custom Features
   subtitle: 
   link_label: Contact
@@ -15,6 +17,13 @@ slideshow:
     to help
   enable_white_text: false
   image: https://res.cloudinary.com/hungryram19/image/upload/v1628902200/templates/realestate2/bathroom-bg3_onhi8u.jpg
+  video: ''
+  video_link: ''
+- body: ''
+  image: ''
+  heading: ''
+  video: ''
+  video_link: https://res.cloudinary.com/hungryram19/video/upload/v1636132823/rajon-arrae/rajon-arrae-estates/pexels-arsel-8403602.mp4
 home_sections:
 - template: text-and-image
   heading: Rajon Arrae Estates
