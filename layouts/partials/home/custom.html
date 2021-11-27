@@ -1,0 +1,102 @@
+{{ $ihfID := .Site.Data.idx.ihf_client_id }}
+{{ $buttonColor := .Site.Data.appearance.colors }}
+{{ $slideSettings := .Site.Data.homelayout.slideshow_settings }}
+<div class="uk-position-top full-nav-wrapper" style="z-index: 1;">
+    {{ partial "global/navbar" . }}
+</div>
+<div class="uk-position-relative uk-visible-toggle uk-cover-container" tabindex="-1" uk-slideshow="animation: {{ $slideSettings.slide_animation }};autoplay: {{ $slideSettings.enable_autoplay }};autoplay-interval: 6000">
+
+    <ul class="uk-slideshow-items" uk-height-viewport>
+        <li>
+            <video src="https://res.cloudinary.com/hungryram19/video/upload/v1636132823/rajon-arrae/rajon-arrae-estates/pexels-arsel-8403602.mp4" defaultMuted autoplay loop muted playsinline uk-cover></video>
+            <div class="black-overlay"></div>
+                <div class="uk-position-center">
+                    <div class="uk-section-small">
+                        <div class="uk-container uk-container-small uk-text-center uk-transition-slide-bottom-small">
+                            <h1 class="uk-white uk-h1 uk-text-uppercase" style="color: #feea75">Rajon Arrae McCoy</h1>
+                            <h2 class="uk-white uk-h3" style="margin-top:40px;">A Trusted Real Estate Agent in Southern California</h2>
+                            <a href="/listings" class="uk-button uk-button-primary"{{ if $buttonColor.button_background_color }} style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>Search Homes</a>
+                        </div>
+                    </div>
+                </div>
+        </li>
+        <li>
+            <div class="uk-position-cover uk-transform-origin-center-left">
+                <img src="https://res.cloudinary.com/hungryram19/image/upload/v1638037733/rajon-arrae/rajon-arrae-estates/rajon-arrae-1.jpg" alt="" uk-cover>
+                <div class="hero-overlay uk-position-cover"></div>
+            </div>
+            <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                <div class="uk-width-2xlarge uk-transition-slide-bottom-small">
+                    <h1 class="uk-white uk-h1 uk-text-uppercase" style="color: #feea75">Rajon Arrae McCoy</h1>
+                    <h2 class="uk-white uk-h3" style="margin-top:40px;">A Trusted Real Estate Agent in Southern California</h2>
+                    <a href="/listings" class="uk-button uk-button-primary"{{ if $buttonColor.button_background_color }} style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>Search Homes</a>
+                    {{ if $.Site.Data.idx.enable_idx }}
+                    <div class="uk-margin-medium-top mobile-quicksearch">
+                        {{ if $.Site.Data.idx.incomplete_subdomain }}
+                        <a href="https://{{ $.Site.Data.idx.incomplete_subdomain }}.idxhome.com/homesearch/{{ $ihfID }}" class="uk-button uk-button-primary" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>Search Homes</a>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="uk-position-cover uk-transform-origin-center-left">
+                <img src="https://res.cloudinary.com/hungryram19/image/upload/v1638037733/rajon-arrae/rajon-arrae-estates/rajon-arrae-2.jpg" alt="" uk-cover>
+                <div class="hero-overlay uk-position-cover"></div>
+            </div>
+            <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                <div class="uk-width-2xlarge uk-transition-slide-bottom-small">
+                    <h1 class="uk-white uk-h1 uk-text-uppercase" style="color: #feea75">Rajon Arrae McCoy</h1>
+                    <h2 class="uk-white uk-h3" style="margin-top:40px;">A Trusted Real Estate Agent in Southern California</h2>
+                    <a href="/listings" class="uk-button uk-button-primary"{{ if $buttonColor.button_background_color }} style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>Search Homes</a>
+                    {{ if $.Site.Data.idx.enable_idx }}
+                    <div class="uk-margin-medium-top mobile-quicksearch">
+                        {{ if $.Site.Data.idx.incomplete_subdomain }}
+                        <a href="https://{{ $.Site.Data.idx.incomplete_subdomain }}.idxhome.com/homesearch/{{ $ihfID }}" class="uk-button uk-button-primary" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>Search Homes</a>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="uk-position-cover uk-transform-origin-center-left">
+                <img src="https://res.cloudinary.com/hungryram19/image/upload/v1638037733/rajon-arrae/rajon-arrae-estates/rajon-arrae-3.jpg" alt="" uk-cover>
+                <div class="hero-overlay uk-position-cover"></div>
+            </div>
+            <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                <div class="uk-width-2xlarge uk-transition-slide-bottom-small">
+                    <h1 class="uk-white uk-h1 uk-text-uppercase" style="color: #feea75">Rajon Arrae McCoy</h1>
+                    <h2 class="uk-white uk-h3" style="margin-top:40px;">A Trusted Real Estate Agent in Southern California</h2>
+                    <a href="/listings" class="uk-button uk-button-primary"{{ if $buttonColor.button_background_color }} style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>Search Homes</a>
+                    {{ if $.Site.Data.idx.enable_idx }}
+                    <div class="uk-margin-medium-top mobile-quicksearch">
+                        {{ if $.Site.Data.idx.incomplete_subdomain }}
+                        <a href="https://{{ $.Site.Data.idx.incomplete_subdomain }}.idxhome.com/homesearch/{{ $ihfID }}" class="uk-button uk-button-primary" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>Search Homes</a>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </li>
+
+
+    </ul>
+
+    {{ if $.Site.Data.idx.enable_idx }}
+    <div class="uk-light hero-foot">
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        <div class="uk-position-bottom uk-position-medium uk-text-center uk-light">
+            <div class="uk-container quicksearch">
+                {{ if $.Site.Data.idx.incomplete_subdomain }}
+                <script type="text/javascript" src="https://{{ $.Site.Data.idx.incomplete_subdomain }}.idxhome.com/site/listing/search/widget/{{ $ihfID }}?style=horizontal"></script>
+                {{ else }}
+                <script type="text/javascript" src="https://{{ $.Site.Data.idx.complete_subdomain }}.idxhome.com/site/listing/search/widget/{{ $ihfID }}?style=horizontal"></script>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
