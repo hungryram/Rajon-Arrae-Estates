@@ -53,6 +53,11 @@ fields:
       schema:
         format: markdown
     label: Body
+  - name: video
+    type: file
+    config:
+      maxSize: 64
+    label: Video
   config:
     min: 
     max: 
