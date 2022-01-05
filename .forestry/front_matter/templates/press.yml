@@ -35,5 +35,10 @@ fields:
     max: 
     labelField: 
   label: Press
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - content/press/_index.md
