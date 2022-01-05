@@ -6,7 +6,7 @@ social_media:
   facebook: ''
   pinterest: ''
   yelp: ''
-  linkedin: ''
+  linkedin: https://www.linkedin.com/in/rajon-mccoy-693a737b
   tiktok: ''
   youtube: ''
 contact_information:
@@ -21,8 +21,10 @@ contact_information:
   zip_code: ''
   google_page_link: ''
 search_engine_optimization:
-  title_tag: Rajon Arrae Estates
-  meta_description: ''
+  title_tag: Rajon Arrae Estates | Realtor in Southern California
+  meta_description: Looking for a home in Southern California? Rajon Arrae McCoy is
+    a licensed California Realtor with exceptional knowledge of Southern California
+    real estate market.
   twitter_card:
     twitter_username: ''
   facebook:
