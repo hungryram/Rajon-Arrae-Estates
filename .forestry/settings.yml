@@ -47,6 +47,10 @@ sections:
   templates:
   - property
   - heading-and-body
+- type: document
+  path: content/press/_index.md
+  label: Press
+  match: "**/*"
 - type: directory
   path: content/offices
   label: Offices
