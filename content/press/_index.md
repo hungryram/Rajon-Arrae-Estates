@@ -4,6 +4,9 @@ meta_description = "View press releases from various sources about Rajon McCoy, 
 no_index = false
 title = "Press"
 title_tag = "The Press | Rajon Arrae Estates"
+[menu.main]
+parent = "Resources"
+weight = 1
 [[press]]
 heading = "Meet Rajon McCoy | Luxury Real Estate Specialist"
 image = "https://res.cloudinary.com/hungryram19/image/upload/v1638037733/rajon-arrae/rajon-arrae-estates/rajon-arrae-1.jpg"
