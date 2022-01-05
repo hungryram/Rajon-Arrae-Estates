@@ -30,3 +30,5 @@ fields:
     max: 
     labelField: 
   label: Press
+pages:
+- content/press/_index.md
