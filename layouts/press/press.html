@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ $buttonColor := $.Site.Data.appearance.colors }}
+
+    <div class="uk-section">
+        <div class="uk-container">
+            {{ range .Params.press }}
+            <div class="uk-card uk-card-default uk-grid-collapse uk-margin-medium-bottom" uk-grid>
+                <div class="uk-width-1-2@s">
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="{{ .image }}" alt="" uk-cover>
+                        <canvas width="300" height="280"></canvas>
+                    </div>
+                </div>
+                <div class="uk-width-expand@s">
+                    <div class="uk-card-body">
+                        <p class="uk-text-uppercase">{{ .subtitle }}</p>
+                        <h3 class="uk-text-uppercase uk-h2 uk-margin-remove">{{ .heading }}</h3>
+                        <div class="uk-margin-medium">
+                            <a href="{{ .link }}" class="uk-button uk-button-primary" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>Read article</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+{{ end }}
