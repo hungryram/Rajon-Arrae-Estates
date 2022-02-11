@@ -8,6 +8,11 @@ title_tag = "The Press | Rajon Arrae Estates"
 parent = "Resources"
 weight = 1
 [[press]]
+heading = "5 Things You Need To Succeed In The Real Estate Industry"
+image = "https://res.cloudinary.com/hungryram19/image/upload/v1644540008/rajon-arrae/rajon-arrae-estates/rajon-arrae-photo_ppwvrf.jpg"
+link = "https://medium.com/authority-magazine/women-leaders-of-real-estate-rajon-arrae-on-the-5-things-you-need-to-succeed-in-the-real-estate-19e3ef2042e3"
+subtitle = "An Interview With Jason Hartman"
+[[press]]
 heading = "Meet Rajon McCoy | Luxury Real Estate Specialist"
 image = "https://res.cloudinary.com/hungryram19/image/upload/v1638037733/rajon-arrae/rajon-arrae-estates/rajon-arrae-1.jpg"
 link = "https://shoutoutla.com/meet-rajon-mccoy-luxury-real-estate-specialist/"
